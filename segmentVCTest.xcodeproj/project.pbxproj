@@ -15,6 +15,8 @@
 		810ACC131C8FBC4F00EDB5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810ACC111C8FBC4F00EDB5CD /* LaunchScreen.storyboard */; };
 		810ACC1E1C8FBC5000EDB5CD /* segmentVCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810ACC1D1C8FBC5000EDB5CD /* segmentVCTestTests.m */; };
 		810ACC291C8FBC5000EDB5CD /* segmentVCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810ACC281C8FBC5000EDB5CD /* segmentVCTestUITests.m */; };
+		810ACC381C8FBD9000EDB5CD /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810ACC371C8FBD9000EDB5CD /* CodeViewController.m */; };
+		810ACC3A1C8FC13F00EDB5CD /* decorate_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 810ACC391C8FC13F00EDB5CD /* decorate_red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		810ACC241C8FBC5000EDB5CD /* segmentVCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segmentVCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810ACC281C8FBC5000EDB5CD /* segmentVCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = segmentVCTestUITests.m; sourceTree = "<group>"; };
 		810ACC2A1C8FBC5000EDB5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810ACC361C8FBD9000EDB5CD /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		810ACC371C8FBD9000EDB5CD /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		810ACC391C8FC13F00EDB5CD /* decorate_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decorate_red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +110,10 @@
 				810ACC071C8FBC4F00EDB5CD /* AppDelegate.m */,
 				810ACC091C8FBC4F00EDB5CD /* ViewController.h */,
 				810ACC0A1C8FBC4F00EDB5CD /* ViewController.m */,
+				810ACC361C8FBD9000EDB5CD /* CodeViewController.h */,
+				810ACC371C8FBD9000EDB5CD /* CodeViewController.m */,
 				810ACC0C1C8FBC4F00EDB5CD /* Main.storyboard */,
+				810ACC391C8FC13F00EDB5CD /* decorate_red.png */,
 				810ACC0F1C8FBC4F00EDB5CD /* Assets.xcassets */,
 				810ACC111C8FBC4F00EDB5CD /* LaunchScreen.storyboard */,
 				810ACC141C8FBC4F00EDB5CD /* Info.plist */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				810ACC3A1C8FC13F00EDB5CD /* decorate_red.png in Resources */,
 				810ACC131C8FBC4F00EDB5CD /* LaunchScreen.storyboard in Resources */,
 				810ACC101C8FBC4F00EDB5CD /* Assets.xcassets in Resources */,
 				810ACC0E1C8FBC4F00EDB5CD /* Main.storyboard in Resources */,
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				810ACC0B1C8FBC4F00EDB5CD /* ViewController.m in Sources */,
+				810ACC381C8FBD9000EDB5CD /* CodeViewController.m in Sources */,
 				810ACC081C8FBC4F00EDB5CD /* AppDelegate.m in Sources */,
 				810ACC051C8FBC4F00EDB5CD /* main.m in Sources */,
 			);
